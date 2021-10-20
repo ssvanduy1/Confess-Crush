@@ -9,7 +9,7 @@ const CONFIG = {
     Sắc son như heo đất,
     Đủ chất như...heo thịt
     Chúc mừng, chúc mừng!!!`,
-    btnIntro: '^^Bấm vào đi ai biết đâu cáo quà hihi^^',
+    btnIntro: '^^Bấm vào đi ai biết đâu có quà hihi^^',
     title: 'Phải chăng những người tên Duy thường hay dễ thương!',
     desc: 'Phải chăng Duy xứng đáng có 10 người yêu ',
     btnYes: 'Hợp lí <33',
