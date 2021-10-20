@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    
     // process bar
     setTimeout(function() {
         firstQuestion();
@@ -9,6 +10,7 @@ $(document).ready(function() {
         });
     }, 600);
 })
+
 
 function init() {
     document.getElementById('titleWeb').innerHTML = CONFIG.titleWeb
@@ -32,7 +34,7 @@ function firstQuestion() {
     Swal.fire({
         title: CONFIG.introTitle,
         text: CONFIG.introDesc,
-        imageUrl: 'img/logi.gif',
+        imageUrl: 'img/chucmung.gif',
         imageWidth: 300,
         imageHeight: 300,
         background: '#fff url("img/iput-bg.jpg")',
@@ -106,18 +108,18 @@ function textGenerate() {
 
 // show popup
 $('#yes').click(function() {
-    var audio = new Audio('sound/tick.mp3');
+    var audio = new Audio('sound/sound.mp3');
     audio.play();
     Swal.fire({
         title: CONFIG.question,
         html: true,
         width: 900,
         padding: '3em',
-        html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder='Whyyy'>",
+        html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder='Nhắn đi đừng ngại :))'>",
         background: '#fff url("img/iput-bg.jpg")',
         backdrop: `
               rgba(0,0,123,0.4)
-              url("img/giphy2.gif")
+              url("img/hihi.gif")
               left top
               no-repeat
             `,
